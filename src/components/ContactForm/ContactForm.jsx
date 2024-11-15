@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import css from './ContactForm.module.css';
 import { useSelector, useDispatch } from 'react-redux';
-import { addContsct, getContacts } from 'redux/contacts/slice';
+import { addContsct, getContacts } from '../../redux/contacts/slice';
 import { Notify } from 'notiflix';
 
 const ContactForm = () => {
